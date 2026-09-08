@@ -479,7 +479,7 @@
             <span class="pill"><span class="pdot"></span>DEPLOYED</span>
           </div>
           <div class="project-links">
-            <a class="pill pill-link" href="https://github.com/SameerKumar2609/AI-Powered-Product-Discovery" target="_blank" rel="noopener"><span class="pdot"></span>Live Demo</a>
+            <a class="pill pill-link" href="https://ai-powered-product-discovery.vercel.app/" target="_blank" rel="noopener"><span class="pdot"></span>Live Demo</a>
           </div>
           <div class="tag-row">
             <span class="tag">React</span><span class="tag">Node.js</span>
@@ -498,19 +498,25 @@
 
         <div class="project-card reveal">
           <div class="project-top">
-            <h3 class="project-name">Forkify</h3>
+            <h3 class="project-name">Priority-Based CSV Processing Platform</h3>
           </div>
           <div class="project-links">
-            <a class="pill pill-link" href="https://forkify-demo.netlify.app/##664c8f193e7aa067e94e8297" target="_blank" rel="noopener"><span class="pdot"></span>Link</a>
+            <a class="pill pill-link" href="https://binaire-freznel-assessment-j1o31hb3g-sameers-projects-a0b6ef52.vercel.app/" target="_blank" rel="noopener"><span class="pdot"></span>Link</a>
           </div>
           <div class="tag-row">
             <span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span>
           </div>
           <ul class="bullet-list">
-            <li>Integrated third-party REST API to fetch and render dynamic recipe data.</li>
-            <li>Implemented pagination and conditional rendering for improved performance and user experience across large data.</li>
-            <li>Persisted user bookmarks using localStorage to maintain state across browser sessions without a backend.</li>
-            <li>Refactored code into modular components for maintainability.</li>
+            <li>Built an asynchronous job-processing platform that accepts CSV workloads and manages them through a priority-based
+            job queue.</li>
+            <li> Implemented non-preemptive priority scheduling to process high-priority jobs ahead of waiting low-priority workloads
+            without interrupting active jobs.</li>
+            <li>Offloaded CPU-intensive CSV processing to Node.js Worker Threads, keeping the main API/event loop responsive during
+            background computation.</li>
+            <li>Implemented real-time job and progress updates using Socket.IO, synchronizing processing status across multiple
+            connected clients</li>
+            <li>Designed REST APIs for job creation, status tracking, result retrieval, and error handling, with a React interface for
+            monitoring and downloading processed results.</li>
           </ul>
         </div>
       </div>
